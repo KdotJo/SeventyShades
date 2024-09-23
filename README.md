@@ -10,5 +10,6 @@ KEY FEATURES:
 - Buttons that allow you to find specific styles that you like ex. Dandy Fashion, Streetwear
 - Allow you to put items in your wishlist
 
+USAGE OF TECHNOLOGY and PICTURE OF STARTUP:
 
 ![Startup specification](https://github.com/user-attachments/assets/552dadb8-039d-4d89-8f83-cce4f058663a)

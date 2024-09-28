@@ -13,3 +13,11 @@ KEY FEATURES:
 USAGE OF TECHNOLOGY and PICTURE OF STARTUP:
 
 ![Startup specification](https://github.com/user-attachments/assets/552dadb8-039d-4d89-8f83-cce4f058663a)
+
+
+9.28.2024 Update
+- Added all the necessary file for the website to start walking on its two feet
+- Added the seasonal colors pages
+- Added Database and Websocket for the project
+- Deployed Simon to the website
+- Added different navigation tools such as buttons to link the pages to one another

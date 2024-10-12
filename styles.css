@@ -69,7 +69,7 @@ div button{
     float: center;
     font-weight: 700;
     letter-spacing: .05em;
-    margin: 3pc;
+    margin: 1pc;
     outline: none;
     overflow: visible;
     padding: .5em 2em;
@@ -86,3 +86,10 @@ div button{
       background: black;
       }
     }
+
+img {
+    margin-left: 31.5;
+    margin-bottom: 1pc;
+    float:left;
+    margin-right: 10.75
+}

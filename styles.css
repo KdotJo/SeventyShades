@@ -1,11 +1,12 @@
 body {
-    background-color: white;
+    background-color: #EFE7DB;
 }
 
 h1 {
-    background-color: #757575;
-    color: white;
+    color: black;
     text-align: center;
     margin-top: 1.5pc;
     font-size: 50;
+    font-family: Copperplate, Gothic;
+    font-weight: 100;
 }

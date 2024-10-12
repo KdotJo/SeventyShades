@@ -18,6 +18,7 @@ body {
 }
 
 body div{
+    margin-top: -4pc;
     margin-bottom: 2pc;
     font-family: didot;
     font-size: 18;

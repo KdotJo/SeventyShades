@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Astonia';
+  src: url('/Astonia.otf');
+}
+
 body {
     background-color: #f8f6f1;
 }
@@ -8,7 +13,7 @@ h1 {
     margin-top: 1.25pc;
     margin-bottom: .75pc;
     font-size: 50;
-    font-family: Didot;
+    font-family: Astonia;
     font-weight: bolder;
     
 
@@ -18,15 +23,17 @@ body {
 }
 
 body div{
-    margin-top: -4pc;
+    margin-top: .5pc;
     margin-bottom: 2pc;
-    font-family: didot;
+    font-family: Astonia;
     font-size: 18;
+    
     
 }
 
 nav button {
     -webkit-appearance: button;
+    font-family: Astonia;
     background-color: transparent;
     border: 2px solid #000;
     border-radius: 0;
@@ -61,6 +68,7 @@ nav button {
 div button{
     -webkit-appearance: button;
     background-color: transparent;
+    font-family: Astonia;
     border: 2px solid #000;
     border-radius: 0;
     box-sizing: border-box;
@@ -148,7 +156,7 @@ a:hover::before {
 /* Presentational Styles */
 body {
 	display: grid;
-  font-family: 'Poppins', sans-serif;
+  font-family: Astonia;
   font-size: 27px;
   font-weight: 700;
   height: 100vh;
@@ -156,6 +164,6 @@ body {
 }
 
 footer {
-    font-size: 23;
-    font-family: didot;
+    font-size: 25;
+    font-family: Astonia;
 }

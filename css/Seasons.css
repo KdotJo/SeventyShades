@@ -1,9 +1,14 @@
+@font-face {
+    font-family: 'Astonia';
+    src: url('/Astonia.otf');
+  }
+
 h1 {
     text-align: center;
-    margin-top: 1.25pc;
-    margin-bottom: 3pc;
+    margin-top: 2pc;
+    margin-bottom: 2pc;
     font-size: 50;
-    font-family: Didot;
+    font-family: Astonia;
     font-weight: bolder;
 }
 
@@ -19,6 +24,7 @@ main button {
     -webkit-appearance: button;
     background-color: transparent;
     border: 2px solid #000;
+    font-family: Astonia;
     border-radius: 0;
     box-sizing: border-box;
     color: black;
@@ -37,7 +43,7 @@ main button {
     text-transform: none;
     transition: all .3s ease-in-out;
     user-select: none;
-    width: 10rem;
+    width: 18rem;
     margin-bottom: 1pc;
     
       &:hover {

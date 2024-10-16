@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Astonia';
+    src: url('/Astonia.otf');
+}
+
+html {
+    background-color: #f8f6f1;
+}
+
+header{
+    text-align: center;
+    margin-top: 1.25pc;
+    margin-bottom: 2pc;
+    font-size: 50;
+    font-family: Astonia;
+    font-weight: bolder;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-left: 28em;
+    margin-right: 28em;
+    
+    
+}
+
+div button {
+    -webkit-appearance: button;
+    background-color: transparent;
+    border: 2px solid #000;
+    font-family: Astonia;
+    border-radius: 0;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    float: center;
+    font-weight: 700;
+    letter-spacing: .05em;
+    margin: 0;
+    margin-top: 1pc;
+    outline: none;
+    overflow: visible;
+    padding: 1em;
+    
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    transition: all .3s ease-in-out;
+    user-select: none;
+    width: 10rem;
+    margin-bottom: 1pc;
+    
+      &:hover {
+      color: white;
+      background: black;
+
+     
+  }
+}

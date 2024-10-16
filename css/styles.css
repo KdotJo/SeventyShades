@@ -120,7 +120,7 @@ img.Winter {
     border-style: solid;
 }
 
-a.LINKS, a.WEBSOCKET, a.DB {
+a.LINKS, a.WEBSOCKET, a.DB, a.ABTUS {
     color: #18272F;
   position: relative;
   text-decoration: none;

@@ -1,5 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import spring from "./images/Spring.jpg";
 import summer from "./images/Summer.jpg";
 import fall from "./images/Fall.jpg";

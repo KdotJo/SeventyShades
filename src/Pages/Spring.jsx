@@ -1,5 +1,8 @@
-function spring() {
-  return (
+import "./Seasons.css";
+
+function Spring() {
+  
+    return (
     <>
       <h1>Spring Shades</h1>
       <body>
@@ -11,3 +14,5 @@ function spring() {
     </>
   );
 }
+
+export default Spring;

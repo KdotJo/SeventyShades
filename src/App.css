@@ -3,29 +3,33 @@
   src: url('other_files/Astonia.otf');
 }
 
-h1 {
-  color: black;
-  margin-top: 1.25pc;
-  margin-bottom: .75pc;
-  font-size: 50;
-  font-family: Astonia;
-  font-weight: bolder;
+div#root{
+  height: 100vh;
+  place-items: center;
 }
 
 body {
-    background-color: #f8f6f1;
-    text-align: center;
-    margin-top: .1pc;
+	display: grid;
+  font-family: Astonia;
+  font-size: 27px;
+  font-weight: 700;
+  text-align: center;
 }
 
 body div{
-    margin-top: .5pc;
-    margin-bottom: 2pc;
-    font-family: Astonia;
-    font-size: 18;
-    color:#000;
-    
-    
+  margin-top: .5pc;
+  margin-bottom: 2pc;
+  font-size: 18px;
+}
+
+
+h1 {
+  color: black;
+  margin-top: 3pc;
+  margin-bottom: 5.75pc;
+  font-size: 2em;
+  font-family: Astonia;
+  font-weight: bolder;
 }
 
 nav button {
@@ -94,15 +98,17 @@ div button{
     }
 
 img.Spring {
-    margin-left: 18.5 !important;
-    margin-bottom: 1pc !important;
+    margin-left: 18.5px;
+    margin-right: 18.5px;
+    margin-bottom: 1pc;
     float:left;
     border: #000;
     border-style: solid;
 }
 
 img.Summer {
-    margin-left: 42.5;
+    margin-left: 18.5px;
+    margin-right: 18.5px;
     margin-bottom: 1pc;
     float:left;
     border: #000;
@@ -110,7 +116,8 @@ img.Summer {
 }
 
 img.Fall {
-    margin-left: 42.5;
+    margin-left: 18.5px;
+    margin-right: 18.5px;
     margin-bottom: 1pc;
     float:left;
     border: #000;
@@ -118,7 +125,8 @@ img.Fall {
 }
 
 img.Winter {
-    margin-left: 42.5;
+    margin-left: 18.5px;
+    margin-right: 18.5px;
     margin-bottom: 1pc;
     float:left;
     border: #000;
@@ -151,14 +159,6 @@ a:hover::before {
 }
 
 /* Presentational Styles */
-body {
-	display: grid;
-  font-family: Astonia;
-  font-size: 27px;
-  font-weight: 700;
-  height: 100vh;
-	place-items: center;
-}
 
 footer {
     font-size: 25;

@@ -3,23 +3,19 @@
   src: url('other_files/Astonia.otf');
 }
 
+h1 {
+  color: black;
+  margin-top: 1.25pc;
+  margin-bottom: .75pc;
+  font-size: 50;
+  font-family: Astonia;
+  font-weight: bolder;
+}
+
 body {
     background-color: #f8f6f1;
-}
-
-h1 {
-    color: black;
     text-align: center;
-    margin-top: 1.25pc;
-    margin-bottom: .75pc;
-    font-size: 50;
-    font-family: Astonia;
-    font-weight: bolder;
-    
-
-}
-body {
-    text-align: center;
+    margin-top: .1pc;
 }
 
 body div{
@@ -27,6 +23,7 @@ body div{
     margin-bottom: 2pc;
     font-family: Astonia;
     font-size: 18;
+    color:#000;
     
     
 }
@@ -97,8 +94,8 @@ div button{
     }
 
 img.Spring {
-    margin-left: 18.5;
-    margin-bottom: 1pc;
+    margin-left: 18.5 !important;
+    margin-bottom: 1pc !important;
     float:left;
     border: #000;
     border-style: solid;

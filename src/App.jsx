@@ -11,7 +11,9 @@ function App() {
   return (
     <>
       <h1>Seventy Shades</h1>
-      <div>
+      <main>
+        <div>Select Your Personal Season</div>
+        <nav>Hello</nav>
         <img
           className="Spring"
           placeholder="Spring"
@@ -20,43 +22,37 @@ function App() {
           width="90"
           height="120"
         />
-
         <img
           className="Summer"
-          src={summer}
           placeholder="Summer"
+          src={summer}
           alt="Summer_Img"
           width="90"
           height="120"
         />
         <img
           className="Fall"
-          src={fall}
           placeholder="Fall"
+          src={fall}
           alt="Fall_Img"
           width="90"
           height="120"
         />
         <img
           className="Winter"
-          src={winter}
           placeholder="Winter"
+          src={winter}
           alt="Winter_Img"
           width="90"
           height="120"
         />
-      </div>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+
+        <div>
+          <button onClick={() => setCount((count) => count + 1)}>
+            count is {count}
+          </button>
+        </div>
+      </main>
     </>
   );
 }

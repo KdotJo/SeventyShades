@@ -33,3 +33,15 @@ div.logo{
   background-color: #EDE8D0;
   padding: 10px 16px;
 }
+
+.dropdown-menu{
+  position: absolute;
+  top: 4.5rem;
+  right: 4.2rem;
+  width: 75px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: white;
+  border: 1px solid gray;
+  font-size: 25px;
+}

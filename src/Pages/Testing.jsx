@@ -3,7 +3,6 @@
 function Blog() {
     return (
         <button>blog</button>
-        
     )
 }
 

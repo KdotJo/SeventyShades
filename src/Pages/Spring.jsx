@@ -5,10 +5,10 @@ function Spring() {
     return (
     <>
       <h1>Spring Shades</h1>
-        <main>
+        <div>
           <button>Warm Tone</button>
           <button>Cool Tone</button>
-        </main>
+        </div>
     </>
   );
 }

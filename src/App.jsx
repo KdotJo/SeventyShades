@@ -3,10 +3,11 @@ import spring from "./images/Spring.jpg";
 import summer from "./images/Summer.jpg";
 import fall from "./images/Fall.jpg";
 import winter from "./images/Winter.jpg";
+import Spring from "./Pages/Spring";
+import { useNavigate } from "react-router-dom";
 import "./App.css";
 
 function App() {
-
   return (
     <>
       <h1>Seventy Shades</h1>

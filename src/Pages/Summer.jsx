@@ -5,13 +5,11 @@ function Summer () {
         <>
         <h1>
         Summer Shades
-        </h1>
-        <body>    
+        </h1>   
             <main>
                 <button>Warm Tone</button>
                 <button>Cool Tone</button>
             </main>
-        </body>
         </>
     )
 }

@@ -1,10 +1,12 @@
+import { useState } from "react"
 import Dropdown from "../Dropdown/Dropdown"
 function Navbar() {
+    
     return (
         <>
         <div className="navbar">
             <div className="logo">
-                Seventy Shades
+                <a href="/">Seventy Shades</a>
             </div>
             <ul className="navbar-menu">
                 <li><a href="/">Home</a></li>
@@ -13,7 +15,8 @@ function Navbar() {
                 <li><a href="/login">Login</a></li>
             </ul>
         </div>
-        <Dropdown />
+        <Dropdown/>
+        
         </>
     )
 }

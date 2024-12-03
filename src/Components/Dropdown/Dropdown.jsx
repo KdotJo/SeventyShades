@@ -10,7 +10,7 @@ const Dropdown = () => {
     return (
         
         <div className="dropdown-menu">
-            <ul className="Options">
+            <ul className="dropdown-options">
                 <li><a href="/spring">Spring</a></li>
                 <li><a href="/summer">Summer</a></li>
                 <li><a href="/fall">Fall</a></li>

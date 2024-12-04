@@ -1,7 +1,8 @@
 import { useState } from "react"
-import Dropdown from "../Dropdown/Dropdown"
+
+
 function Navbar() {
-    
+    const [open, setOpen] = useState(false);
     return (
         <>
         <div className="navbar">
@@ -11,11 +12,20 @@ function Navbar() {
             <ul className="navbar-menu">
                 <li><a href="/">Home</a></li>
                 <li><a href="/aboutus">About Us</a></li>
-                <li><a href="/seasons">Seasons</a></li>
+                <div className="menu-trigger" onClick={() => {setOpen(!open)}}>
+                    <li>Seasons</li>
+                </div>
                 <li><a href="/login">Login</a></li>
             </ul>
         </div>
-        <Dropdown/>
+        <div className={`dropdown-menu ${open? 'active' : 'inactive'}`}>
+            <ul>
+                <li><a href="/spring">Spring</a></li>
+                <li><a href="/summer">Summer</a></li>
+                <li><a href="/fall">Fall</a></li>
+                <li><a href="/winter">Winter</a></li>
+            </ul>
+        </div>
         
         </>
     )

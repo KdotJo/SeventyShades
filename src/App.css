@@ -29,6 +29,10 @@
   background-color: #EDE8D0;
 }
 
+.navbar-menu li{
+  background-color: #EDE8D0;
+}
+
 .navbar-menu li:hover a{
   color: gray;
   cursor: pointer;
@@ -49,13 +53,14 @@ div.logo a{
 
 .dropdown-menu{
   position: absolute;
-  top: 4rem;
+  top: 4.5rem;
   right: 5.5rem;
   width: 75px;
   padding: 15px;
   background-color: white;
   border: 1px solid gray;
   font-size: 25px;
+  border-radius: 10px;
 }
 
 .dropdown-menu::before{
@@ -71,7 +76,21 @@ div.logo a{
   border-top: 1px solid gray;
 }
 
-.dropdown-options {
+.dropdown-menu.active{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: var(--speed) ease;
+}
+
+.dropdown-menu.inactive{
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: var(--speed) ease;
+}
+
+.dropdown-menu ul {
   list-style-type: none;
   background-color: white;
 }

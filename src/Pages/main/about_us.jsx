@@ -4,6 +4,12 @@ import fall from "../../images/Fall.jpg"
 import winter from "../../images/Winter.jpg"
 import "./aboutus.css"
 import Navbar from "../../Components/Navbar/index.jsx"
+import { GiOakLeaf } from "react-icons/gi"
+import { LuFlower } from "react-icons/lu";
+import { TiWeatherSunny } from "react-icons/ti";
+import { FaSnowman } from "react-icons/fa";
+
+
 
 const About = () => {
     return (
@@ -20,6 +26,12 @@ const About = () => {
             <img className="Winter" placeholder="Winter" src={winter} alt="Winter_Img" width="90" height="120"/>
             </div>
         </main>
+            <div className="icons">
+                <LuFlower />
+                <TiWeatherSunny />
+                <GiOakLeaf/>
+                <FaSnowman />
+            </div>
         <div className="words">
             <p>Welcome to SeventyShades, your go-to platform for sharing, discovering, and drawing inspiration from outfits that perfectly match your personal color season!</p>
 

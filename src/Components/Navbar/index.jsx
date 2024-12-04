@@ -26,7 +26,6 @@ function Navbar() {
                 <li><a href="/winter">Winter</a></li>
             </ul>
         </div>
-        
         </>
     )
 }

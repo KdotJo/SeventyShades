@@ -19,7 +19,7 @@ div.words{
     font-size: 20px;
     margin-left: 25em;
     margin-right: 25em;
-    margin-top: 80px;
+    margin-top: 30px;
     padding: 80px;
 
 }
@@ -33,7 +33,6 @@ main{
     margin: 50px;
     padding: 30px;
 }
-
 
 
 img.Spring {
@@ -65,9 +64,14 @@ img.Fall {
 
 img.Winter {
     margin-left: 34px;
-    margin-right: 18.5px;
+    margin-right: 33px;
     margin-bottom: 1pc;
     float:left;
     border: #000;
     border-style: solid;
 }
+
+div.icons {
+    place-items: center;
+}
+

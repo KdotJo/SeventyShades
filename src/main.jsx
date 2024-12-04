@@ -7,7 +7,10 @@ import Spring from "./Pages/Seasons/Spring.jsx";
 import Summer from "./Pages/Seasons/Summer.jsx";
 import Fall from "./Pages/Seasons/Fall.jsx";
 import Winter from "./Pages/Seasons/Winter.jsx";
+import Login from "./Pages/main/LoginForm.jsx";
+
 import { createBrowserRouter, RouterProvider, Route, } from "react-router-dom";
+
 
 const router = createBrowserRouter([
   {
@@ -34,6 +37,13 @@ const router = createBrowserRouter([
     path: "winter",
     element: <Winter/>,
   },
+  {
+    path: "login",
+    element: <Login/>
+  }
+
+  
+  
 ]);
 
 createRoot(document.getElementById("root")).render(

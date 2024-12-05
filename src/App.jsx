@@ -5,6 +5,8 @@ function App() {
   return (
     <>
     <div><Navbar></Navbar></div>
+    <button>Hello</button>
+    <button>Goodbye</button>
     </>
   );
 }

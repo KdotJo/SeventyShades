@@ -8,6 +8,8 @@ import Summer from "./Pages/Seasons/Summer.jsx";
 import Fall from "./Pages/Seasons/Fall.jsx";
 import Winter from "./Pages/Seasons/Winter.jsx";
 import Login from "./Pages/main/LoginForm.jsx";
+import Signup from "./Pages/main/Signup.jsx"
+
 
 import { createBrowserRouter, RouterProvider, Route, } from "react-router-dom";
 
@@ -40,6 +42,10 @@ const router = createBrowserRouter([
   {
     path: "login",
     element: <Login/>
+  },
+  {
+    path: "signup",
+    element: <Signup/>
   }
 
   

@@ -6,11 +6,11 @@ function Spring() {
     return (
     <>
       <div><Navbar></Navbar></div>
-      <h1>Spring Shades</h1>
-      <main>
-          <button>Warm Tone</button>
-          <button>Cool Tone</button>
-      </main>
+        <h1>Spring Shades</h1>
+          <main>
+              <a className="swarmtone" href="/springwarmtone" ><button>Warm Tone</button></a>
+              <a className="scoldtone" href="/scoldtone" ><button>Cool Tone</button></a>
+          </main>
     </>
   );
 }

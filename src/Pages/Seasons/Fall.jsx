@@ -1,5 +1,6 @@
 import "./Seasons.css"
 import Navbar from "../../Components/Navbar";
+import "./Fall.css"
 
 function Fall() {
     return (
@@ -9,8 +10,8 @@ function Fall() {
         Fall Shades
         </h1>  
             <main>
-                <button>Warm Tone</button>
-                <button>Cool Tone</button>
+                <a className="fwarmtone" href="/fallwarmtone" ><button>Warm Tone</button></a>
+                <a className="fcoldtone" href="/fallcoldtone" ><button>Cool Tone</button></a>
             </main>
         </>
     )

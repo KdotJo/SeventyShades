@@ -20,9 +20,9 @@ main {
     text-align: center;
 }
 
-main button {
-    -webkit-appearance: button;
+main a button {
     background-color: transparent;
+    background-size: 600px 900px;
     border: 2px solid #000;
     font-family: Astonia;
     border-radius: 0;
@@ -30,25 +30,25 @@ main button {
     color: black;
     cursor: pointer;
     display: inline-block;
-    float: center;
     font-weight: 700;
     letter-spacing: .05em;
-    margin: 0;
+    font-size: large;
+    margin: 50px;
     outline: none;
     overflow: visible;
     padding: 2em 1em;
-    
     text-align: center;
     text-decoration: none;
-    text-transform: none;
-    transition: all .3s ease-in-out;
+    transition: .3s ease-in-out;
     user-select: none;
-    width: 18rem;
+    width: 600px;
+    height: 900px;
     margin-bottom: 1pc;
     
       &:hover {
       color: white;
       background: black;
+
 
      
   }

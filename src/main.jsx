@@ -9,6 +9,10 @@ import Fall from "./Pages/Seasons/Fall.jsx";
 import Winter from "./Pages/Seasons/Winter.jsx";
 import Login from "./Pages/main/LoginForm.jsx";
 import Signup from "./Pages/main/Signup.jsx"
+import FallCold from "./Pages/Seasons/FallCold.jsx";
+import FallWarm from "./Pages/Seasons/FallWarm.jsx";
+import SpringCold from "./Pages/Seasons/SpringCold.jsx";
+import SpringWarm from "./Pages/Seasons/SpringWarm.jsx";
 
 
 import { createBrowserRouter, RouterProvider, Route, } from "react-router-dom";
@@ -46,6 +50,23 @@ const router = createBrowserRouter([
   {
     path: "signup",
     element: <Signup/>
+  }
+  ,
+  {
+    path: "fallwarmtone",
+    element: <FallWarm/>
+  },
+  {
+    path: "fallcoldtone",
+    element: <FallCold/>
+  },
+  {
+    path: "springcoldtone",
+    element: <SpringCold/>
+  },
+  {
+    path: "springwarmtone",
+    element: <SpringWarm/>
   }
 
   

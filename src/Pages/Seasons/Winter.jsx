@@ -1,17 +1,18 @@
-import "./Seasons.css"
+import "./Seasons.css";
 import Navbar from "../../Components/Navbar";
 
-function Winter () {
+function Winter() {
+  
     return (
-        <>
-        <div><Navbar></Navbar></div>
-        <h1>Winter Shades</h1>  
-            <main>
-                <button>Warm Tone</button>
-                <button>Cool Tone</button>
-            </main>
-        </>
-    )
+    <>
+      <div><Navbar></Navbar></div>
+        <h1>Summer Shades</h1>
+          <main>
+              <a className="winterwarmtone" href="/winterwarmtone" ><button>Warm Tone</button></a>
+              <a className="wintercoldtone" href="/wintercoldtone" ><button>Cool Tone</button></a>
+          </main>
+    </>
+  );
 }
 
 export default Winter;

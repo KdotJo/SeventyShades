@@ -13,9 +13,11 @@ import FallCold from "./Pages/Seasons/FallCold.jsx";
 import FallWarm from "./Pages/Seasons/FallWarm.jsx";
 import SpringCold from "./Pages/Seasons/SpringCold.jsx";
 import SpringWarm from "./Pages/Seasons/SpringWarm.jsx";
-
-
 import { createBrowserRouter, RouterProvider, Route, } from "react-router-dom";
+import SummerWarm from "./Pages/Seasons/SummerWarm.jsx";
+import SummerCold from "./Pages/Seasons/SummerCold.jsx";
+import WinterWarm from "./Pages/Seasons/WinterWarm.jsx";
+import WinterCold from "./Pages/Seasons/WinterCold.jsx";
 
 
 const router = createBrowserRouter([
@@ -67,6 +69,22 @@ const router = createBrowserRouter([
   {
     path: "springwarmtone",
     element: <SpringWarm/>
+  },
+  {
+    path: "summerwarmtone",
+    element: <SummerWarm/>
+  },
+  {
+    path: "summercoldtone",
+    element: <SummerCold/>
+  },
+  {
+    path: "winterwarmtone",
+    element: <WinterWarm/>
+  },
+  {
+    path: "wintercoltone",
+    element: <WinterCold/>
   }
 
   

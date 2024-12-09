@@ -1,5 +1,6 @@
 import "./Seasons.css";
 import Navbar from "../../Components/Navbar";
+import "./spring.css"
 
 function Spring() {
   

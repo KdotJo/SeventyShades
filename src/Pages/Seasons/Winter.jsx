@@ -1,4 +1,5 @@
 import "./Seasons.css";
+import "./Winter.css"
 import Navbar from "../../Components/Navbar";
 
 function Winter() {

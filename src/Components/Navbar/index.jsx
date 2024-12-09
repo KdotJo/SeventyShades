@@ -1,5 +1,6 @@
 import { useState } from "react"
 import "./navbar.css"
+import { Link } from "react-router-dom";
 
 function Navbar() {
     const [open, setOpen] = useState(false);
@@ -7,23 +8,23 @@ function Navbar() {
         <>
         <div className="navbar">
             <div className="logo">
-                <a href="/">Seventy Shades</a>
+                <Link to="/">Seventy Shades</Link>
             </div>
             <ul className="navbar-menu">
-                <li><a href="/">Home</a></li>
-                <li><a href="/aboutus">About Us</a></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/aboutus">About Us</Link></li>
                 <div className="menu-trigger" onClick={() => {setOpen(!open)}}>
                     <li>Seasons</li>
                 </div>
-                <li><a href="/login">Login</a></li>
+                <li><Link to="/login">Login</Link></li>
             </ul>
         </div>
         <div className={`dropdown-menu ${open? 'active' : 'inactive'}`}>
             <ul>
-                <li><a href="/spring">Spring</a></li>
-                <li><a href="/summer">Summer</a></li>
-                <li><a href="/fall">Fall</a></li>
-                <li><a href="/winter">Winter</a></li>
+                <li><Link to="/spring">Spring</Link></li>
+                <li><Link to="/summer">Summer</Link></li>
+                <li><Link to="/fall">Fall</Link></li>
+                <li><Link to="/winter">Winter</Link></li>
             </ul>
         </div>
         </>

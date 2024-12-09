@@ -4,6 +4,9 @@
     background-image: url("../../images/Season_Buttons/Fall_button_W.jpg");
 }
 
-.fcoldtone button {}
+.fcoldtone button {
+    background-repeat: no-repeat;
+    background-image: url("../../images/Season_Buttons/Fall_button_C.jpg");
+}
 
 

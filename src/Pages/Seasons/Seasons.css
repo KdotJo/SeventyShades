@@ -27,7 +27,7 @@ main a button {
     font-family: Astonia;
     border-radius: 0;
     box-sizing: border-box;
-    color: black;
+    color: transparent;
     cursor: pointer;
     display: inline-block;
     font-weight: 700;

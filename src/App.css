@@ -6,3 +6,18 @@ button {
   width: 400px;
   max-width: 50%;
 }
+
+
+
+img {
+  height: 300px;
+  width: 190px;
+  border: 1px solid black;
+  margin: 30px;
+  border-radius: 10px;
+  margin-top: 5em;
+}
+
+.img1 {
+  margin-left: 11.5em;
+}

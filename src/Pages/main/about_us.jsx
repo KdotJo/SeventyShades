@@ -4,11 +4,6 @@ import fall from "../../images/About_page/Fall.jpg"
 import winter from "../../images/About_Page/Winter.jpg"
 import "./aboutus.css"
 import Navbar from "../../Components/Navbar/index.jsx"
-import { GiOakLeaf } from "react-icons/gi"
-import { LuFlower } from "react-icons/lu";
-import { TiWeatherSunny } from "react-icons/ti";
-import { FaSnowman } from "react-icons/fa";
-
 
 
 const About = () => {

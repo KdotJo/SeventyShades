@@ -1,9 +1,11 @@
 .sumwarmtone button {
     background-repeat: no-repeat;
     background-image: url("../../images/Season_Buttons/Summer_button_W.jpg");
+    border-radius: 10px;
 }
 
 .sumcoldtone button {
     background-repeat: no-repeat;
     background-image: url("../../images/Season_Buttons/Summer_button_C.jpg");
+    border-radius: 10px;
 }

@@ -1,9 +1,11 @@
 .winterwarmtone button {
     background-repeat: no-repeat;
     background-image: url("../../images/Season_Buttons/Winter_button_W.jpg");
+    border-radius: 10px;
 }
 
 .wintercoldtone button {
     background-repeat: no-repeat;
+    border-radius: 10px;
     background-image: url("../../images/Season_Buttons/Winter_button_C.jpg");
 }

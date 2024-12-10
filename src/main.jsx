@@ -18,7 +18,7 @@ import SummerWarm from "./Pages/Seasons/SummerWarm.jsx";
 import SummerCold from "./Pages/Seasons/SummerCold.jsx";
 import WinterWarm from "./Pages/Seasons/WinterWarm.jsx";
 import WinterCold from "./Pages/Seasons/WinterCold.jsx";
-import FileUpload from "./Components/FileUpload/FileUpload.jsx";
+
 
 
 const router = createBrowserRouter([
@@ -83,12 +83,8 @@ const router = createBrowserRouter([
     element: <WinterWarm/>
   },
   {
-    path: "wintercoltone",
+    path: "wintercoldtone",
     element: <WinterCold/>
-  },
-  {
-    path: "fileupload",
-    element: <FileUpload/>
   }
 
 

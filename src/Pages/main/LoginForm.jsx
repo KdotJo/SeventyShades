@@ -13,7 +13,7 @@ const Login = () => {
                 <div className="input-box"><input type="password" placeholder="Password" required/></div>
                 <div className="remember-forgot">
                     <label><input type="checkbox" />Remember me</label>
-                    <a href="#">Forgot Password?</a>
+                    <a href="/signup">Forgot Password?</a>
                 </div>
                 <button type="submit">Login</button>
                 <div className="register-link">

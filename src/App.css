@@ -9,15 +9,62 @@ button {
 
 
 
-img {
+
+img.img1 {
+  height: 300px;
+  width: 190px;
+  border: 1px solid black;
+  margin: 30px;
+  margin-left:3em;
+  border-radius: 10px;
+  margin-top: 5em;
+}
+
+.img2 {
+height: 300px;
+width: 190px;
+border: 1px solid black;
+margin: 30px;
+border-radius: 10px;
+margin-top: 5em;
+}
+.img3 {
+height: 300px;
+width: 190px;
+border: 1px solid black;
+margin: 30px;
+border-radius: 10px;
+margin-top: 5em;
+}
+.img4 {
+height: 300px;
+width: 190px;
+border: 1px solid black;
+margin: 30px;
+border-radius: 10px;
+margin-top: 5em;
+}
+.img5 {
+height: 300px;
+width: 190px;
+border: 1px solid black;
+margin: 30px;
+border-radius: 10px;
+margin-top: 5em;
+}
+.img6 {
+height: 300px;
+width: 190px;
+border: 1px solid black;
+margin: 30px;
+border-radius: 10px;
+margin-top: 5em;
+}
+.img7 {
   height: 300px;
   width: 190px;
   border: 1px solid black;
   margin: 30px;
   border-radius: 10px;
   margin-top: 5em;
-}
-
-.img1 {
-  margin-left: 11.5em;
-}
+  }

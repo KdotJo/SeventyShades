@@ -1,0 +1,29 @@
+.quote-box {
+  margin-top: 1em;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+p {
+  margin-top: 15px;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.author {
+  font-weight: bold;
+  text-align: right;
+}
+
+.author::before {
+  content: " - ";
+}
+
+#picture img {
+  width: 100%;
+  height: 100%;
+}

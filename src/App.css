@@ -1,70 +1,81 @@
+@font-face {
+  font-family: 'Astonia';
+  src: url('./other_files/Astonia.otf');
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  min-width: 375px;
+  height: 100vh;
+}
+
+header {
+  flex: 0 80px;
+}
 
 
-button {
-  margin-top: 10em;
-  height: 400px;
-  width: 400px;
-  max-width: 50%;
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Astonia;
+}
+
+footer {
+  flex: 0 30px;
+}
+
+menu {
+  flex: 1;
+  display: flex;
+  /*  overwrite Bootstrap so the menu does not wrap */
+  flex-direction: row !important;
+  list-style: none;
 }
 
 
 
-
-img.img1 {
-  height: 300px;
-  width: 190px;
-  border: 1px solid black;
-  margin: 30px;
-  margin-left:3em;
-  border-radius: 10px;
-  margin-top: 5em;
+.navbar-top {
+  padding-left: 0.3em;
+  border-bottom: solid rgb(182, 182, 182) thin;
+  background-color: #EDE8D0;
+  padding: 16px 16px;
+  margin-bottom: 16px;
+  display: flex;
+  font-family: Astonia;
+  font-size: 25px;
 }
 
-.img2 {
-height: 300px;
-width: 190px;
-border: 1px solid black;
-margin: 30px;
-border-radius: 10px;
-margin-top: 5em;
+.navbar-nav {
+  position: absolute;
+  right: 0;
+  margin-right: 1em;
+  margin-top: .12em;
+  font-size: 20px;
 }
-.img3 {
-height: 300px;
-width: 190px;
-border: 1px solid black;
-margin: 30px;
-border-radius: 10px;
-margin-top: 5em;
+
+.nav-link {
+  color: black;
+  text-decoration: none;
 }
-.img4 {
-height: 300px;
-width: 190px;
-border: 1px solid black;
-margin: 30px;
-border-radius: 10px;
-margin-top: 5em;
+
+
+menu .nav-item {
+  padding: 0 0.4em;
 }
-.img5 {
-height: 300px;
-width: 190px;
-border: 1px solid black;
-margin: 30px;
-border-radius: 10px;
-margin-top: 5em;
+
+footer a {
+  float: right;
 }
-.img6 {
-height: 300px;
-width: 190px;
-border: 1px solid black;
-margin: 30px;
-border-radius: 10px;
-margin-top: 5em;
-}
-.img7 {
-  height: 300px;
-  width: 190px;
-  border: 1px solid black;
-  margin: 30px;
-  border-radius: 10px;
-  margin-top: 5em;
+
+@media (max-height: 600px) {
+  header {
+    display: none;
   }
+  footer {
+    display: none;
+  }
+}

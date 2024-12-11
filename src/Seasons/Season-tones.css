@@ -28,6 +28,7 @@
 }
 
 .slide-panel {
+    margin-top: -2em;
     display: flex;
     align-items: center;
     width: 500px;

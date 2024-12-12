@@ -22,6 +22,7 @@ function Home() {
         <img src={img7} alt="img7" className="img7" />
       </div>
       <h2>Top Liked Outfits</h2>
+      <div><a href="https://github.com/KdotJo/SeventyShades"></a>Github</div>
     </main>
   );
 }

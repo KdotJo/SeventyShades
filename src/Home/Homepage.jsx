@@ -7,6 +7,7 @@ import img4 from "../images/Home_Page/Home_img4.jpg";
 import img5 from "../images/Home_Page/Home_img5.jpg";
 import img6 from "../images/Home_Page/Home_img6.jpg";
 import img7 from "../images/Home_Page/Home_img7.jpg";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -22,7 +23,7 @@ function Home() {
         <img src={img7} alt="img7" className="img7" />
       </div>
       <h2>Top Liked Outfits</h2>
-      <div><a href="https://github.com/KdotJo/SeventyShades"></a>Github</div>
+      <div><a href="https://github.com/KdotJo/SeventyShades">GitHub</a></div>
     </main>
   );
 }

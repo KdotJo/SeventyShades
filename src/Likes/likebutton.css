@@ -1,12 +1,14 @@
-.likebutton {
+.like-button {
     color: black;
     font-family: Astonia;
     font-size: 14px;
     width: 200px;
     height: 50px;
+    margin-left:10.5em;
     border: 1px solid black;
+    margin-top: -40px;
 }
 
-.likebutton-main {
-    margin-top: -85px;
+.userCount {
+    margin-bottom: 25px;
 }

@@ -4,6 +4,7 @@ import { useRef } from "react";
 import HI1 from "../../../images/Slider/Summer_Cold/Summer_Cold1.jpg";
 import HI2 from "../../../images/Slider/Summer_Cold/Summer_Cold2.jpg";
 import HI3 from "../../../images/Slider/Summer_Cold/Summer_Cold3.jpg";
+import Likes from "../../../Likes/likebutton";
 
 function SummerCT() {
   let imageContainerRef = useRef(null);
@@ -26,6 +27,7 @@ function SummerCT() {
           <div className="next" onClick={next}></div>
         </div>
       </div>
+      <Likes></Likes>
     </main>
   );
 }

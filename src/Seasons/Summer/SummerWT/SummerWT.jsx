@@ -4,6 +4,8 @@ import { useRef } from "react";
 import HI1 from "../../../images/Slider/Summer_Warm/Summer_Warm1.jpg";
 import HI2 from "../../../images/Slider/Summer_Warm/Summer_Warm2.jpg";
 import HI3 from "../../../images/Slider/Summer_Warm/Summer_Warm3.jpg";
+import Likes from "../../../Likes/likebutton";
+
 
 function SummerWT() {
   let imageContainerRef = useRef(null);
@@ -26,6 +28,7 @@ function SummerWT() {
           <div className="next" onClick={next}></div>
         </div>
       </div>
+      <Likes></Likes>
     </main>
   );
 }

@@ -4,7 +4,7 @@ import { useRef } from "react";
 import HI1 from "../../../images/Slider/Spring_Cold/Spring_Cold1.jpg";
 import HI2 from "../../../images/Slider/Spring_Cold/Spring_Cold2.jpg";
 import HI3 from "../../../images/Slider/Spring_Cold/Spring_Cold3.jpg";
-
+import Likes from "../../../Likes/likebutton";
 
 
 function SpringCT() {
@@ -28,6 +28,7 @@ function SpringCT() {
           <div className="next" onClick={next}></div>
         </div>
       </div>
+      <Likes></Likes>
     </main>
   );
 }

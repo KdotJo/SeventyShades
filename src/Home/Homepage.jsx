@@ -21,6 +21,8 @@ function Home() {
         <img src={img6} alt="img6" className="img6" />
         <img src={img7} alt="img7" className="img7" />
       </div>
+      <h2>Top Liked Outfits</h2>
+      <footer><a href="https://github.com/KdotJo/SeventyShades">Github</a></footer>
     </main>
   );
 }

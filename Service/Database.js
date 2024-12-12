@@ -5,8 +5,9 @@ const config = require('./dbConfig.json');
 
 const url = `mongodb+srv://${config.userName}:${config.password}@${config.hostname}`;
 const client = new MongoClient(url);
-const db = client.db('SeventyShades');
+const db = client.db('seventyshades');
 const userCollection = db.collection('user');
+const likeCollection = db.collection('like');
 
 // This will asynchronously test the connection and exit the process if it fails
 (async function testConnection() {
@@ -39,8 +40,24 @@ async function createUser(email, password) {
   return user;
 }
 
+async function addLike(like) {
+  return likeCollection.insertOne(like);
+}
+
+function getLikes() {
+  const query = { like: { $gt: 0, $lt: 1000 } };
+  const options = {
+    sort: { like: -1},
+    limit: 1,
+  }
+  const cursor = likeCollection.find(query, options);
+  return cursor.toArray();
+}
+
 module.exports = {
   getUser,
   getUserByToken,
   createUser,
+  addLike,
+  getLikes,
 };

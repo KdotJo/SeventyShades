@@ -94,16 +94,25 @@ function setAuthCookie(res, authToken) {
   });
 }
 
-secureApiRouter.get('/springwarmtone', async (req, res) => {
+secureApiRouter.get('/likes', async (req, res) => {
   const like = await DB.getLikes();
   res.send(like);
 });
 
-secureApiRouter.post('/springwarmtone', async (req, res) => {
+secureApiRouter.post('/likes', async (req, res) => {
   const like = { ...req.body, ip: req.ip };
-  await DB.addLikes(like);
-  const likes = await DB.getLike();
-  res.send(likes);
+  await DB.addLike(like);
+
+  const likes = await DB.getLikes();
+
+  // Broadcast the updated like count to all connected clients
+  wss.clients.forEach((client) => {
+    if (client.readyState === WebSocket.OPEN) {
+      client.send(JSON.stringify({ likeCount: likes[0]?.like }));
+    }
+  });
+
+  res.send(likes); // Optionally, send the updated likes back to the requester
 });
 
 const httpService = app.listen(port, () => {

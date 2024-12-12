@@ -22,7 +22,7 @@ function Home() {
         <img src={img7} alt="img7" className="img7" />
       </div>
       <h2>Top Liked Outfits</h2>
-      <footer><a href="https://github.com/KdotJo/SeventyShades">Github</a></footer>
+      <div><a href="https://github.com/KdotJo/SeventyShades">Github</a></div>
     </main>
   );
 }

@@ -102,16 +102,19 @@ secureApiRouter.get('/likes', async (req, res) => {
 
 secureApiRouter.post('/likes', async (req, res) => {
   const like = { ...req.body, ip: req.ip };
-
-  // Add the like to the database
   await DB.addLike(like);
 
-  // Fetch the updated like count
   const likes = await DB.getLikes();
 
-  // Send back the updated like count
-  res.send(likes);
+  wss.clients.forEach((client) => {
+    if (client.readyState === WebSocket.OPEN) {
+      client.send(JSON.stringify({ likeCount: likes[0]?.like }));
+    }
+  });
+
+  res.send(likes); 
 });
+
 
 const httpService = app.listen(port, () => {
   console.log(`Listening on port ${port}`);
